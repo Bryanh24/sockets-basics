@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000');
+var socket = io('https://sockets-io-app.herokuapp.com');
 
 //Escuchar Informacion
 socket.on('connect', () => {
